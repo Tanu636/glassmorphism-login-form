@@ -1,0 +1,106 @@
+body {
+    background-image: url(./assests/file.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.container {
+    height: 29rem;
+    width: 25rem;
+    border-radius: 1rem;
+    display: inline-block;
+    margin-top: 10rem;
+    border: 2px solid white;
+    backdrop-filter: blur(10px);
+}
+
+.email input {
+    height: 100%;
+    width: 80%;
+    border: none;
+    border-bottom: 2px solid silver;
+    background-color: none;
+    font-size: 18px;
+    background: transparent;
+    font-size: 1.5em;
+    color: white;
+}
+
+.email label {
+    color: white;
+    position: absolute;
+    left: 4rem;
+    transform: translateY(0%);
+    pointer-events: none;
+    transition: .5s;
+}
+
+.password input {
+    height: 100%;
+    width: 80%;
+    border: none;
+    border-bottom: 2px solid silver;
+    background-color: none;
+    font-size: 18px;
+    background: transparent;
+}
+
+.password label {
+    color: white;
+    position: absolute;
+    left: 4rem;
+    transform: translateY(0%);
+}
+
+i {
+    color: white;
+}
+
+
+h3 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+button {
+    padding: 0.8rem 9rem 0.8rem 9rem;
+    border-radius: 0.5rem;
+    transition: all 1rem;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background-color: rgb(247, 167, 19);
+}
+
+label[for="forgot"] {
+    margin-left: 4rem;
+}
+
+label[for="forgot"]:hover {
+    color: blue;
+}
+
+label[for="agree"]:hover {
+    color: blue;
+}
+
+.check {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+span:hover {
+    color: blue;
+}
